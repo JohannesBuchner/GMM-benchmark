@@ -98,3 +98,6 @@ Overall good performance at the sub-second level:
 * LightGMM with 80 components for 50000 samples
 * LightGMM with 40 components for 5000 samples (tied with gmmx-fastinit full K=10-30 n_iter=1 max_iter=1)
 
+Interestingly, the Kmeans weight initialisation works better than
+the E-step, possibly due to overfitting on the training data.
+The weights are not close to zero nor are the weight ratios wild.
