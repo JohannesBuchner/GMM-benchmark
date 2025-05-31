@@ -41,12 +41,17 @@ Libraries tested
 Library -> model variants/configurations are:
 
 * Scikit-learn 
+
   * GaussianMixture (EM algorithm), initialised with kmeans++
   * BayesianGaussianMixture (Variational) (but discarded, because not better than GaussianMixture nor faster)
+
 * `gmmx <https://github.com/adonath/gmmx>`_, GMM+EM 
+
   * initialised with kmeans++
   * "fastinit": random sample initialisation, 1 K-Means iteration, 1 EM iteration. The fork is at: https://github.com/JohannesBuchner/gmmx/
+
 * LightGMM (in https://github.com/JohannesBuchner/askcarl/ under askcarl.lightgmm): This does not use the EM algorithm at all, but random sample initialisation and then KMeans steps (n_iter max_iter) give the cluster centers. Regularized covariance matrices are computed from cluster members. The component weights are assigned either
+
   * 'Equal' (this works poorly)
   * 'Kmeans' (proportional to number of cluster members)
   * 'Refine' (a single E step, maximizing the training set likelihood)
@@ -56,6 +61,7 @@ In all models, the number of components K are varied: 5, 10, 15, 20, 30, 40, 80,
 I also tested:
 
 * Mixture-Models library "https://github.com/kasakh/Mixture-Models/"
+
   * PGMM, gave very poor results and was very slow
   * MFA, gave very poor results and was very slow
 
