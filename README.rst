@@ -21,7 +21,7 @@ See an illustration of the data distribution in
 COSMOS_z0.3-0.5_pred_mags.txt.gz_gmm_globalfull_802d.png:
 
 .. image:: https://raw.githubusercontent.com/JohannesBuchner/GMM-benchmark/refs/heads/main/COSMOS_z0.3-0.5_pred_mags.txt.gz_gmm_globalfull_802d.png
-    :width: 500
+    :width: 700
 
 Objective
 ---------
@@ -70,13 +70,13 @@ Pareto frontier
 50000 samples:
 
 .. image:: https://raw.githubusercontent.com/JohannesBuchner/GMM-benchmark/refs/heads/main/pareto_analysis_lightgmm50000.png
-    :width: 500
+    :width: 700
     :target: https://raw.githubusercontent.com/JohannesBuchner/GMM-benchmark/refs/heads/main/pareto_analysis_lightgmm50000.pdf
 
 5000 samples:
 
 .. image:: https://raw.githubusercontent.com/JohannesBuchner/GMM-benchmark/refs/heads/main/pareto_analysis_lightgmm5000.png
-    :width: 500
+    :width: 700
     :target: https://raw.githubusercontent.com/JohannesBuchner/GMM-benchmark/refs/heads/main/pareto_analysis_lightgmm5000.pdf
 
 
